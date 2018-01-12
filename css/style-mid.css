@@ -1,0 +1,214 @@
+.container-offers{
+    margin-left: 40px;
+}
+
+.blogs,.magazine,.video , .ebook ,.event {
+   
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.mask{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(29, 30, 31, 0.4);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.mask:hover{
+    background-color:  rgba(29, 30, 31, 0.1);
+}
+
+.blogs:hover,.magazine:hover,.video:hover, .ebook:hover,.event:hover{
+    box-shadow: 0px 2px 8px #191919;
+}
+
+.blogs,.magazine,.video,.ebook,.event, .offer-row1>a, .offer-row2>a{
+    display: inline-block;
+    position: relative;
+}
+
+.top_header{
+    position: fixed;
+}
+
+.title{
+    color: white;
+    font-size: 4vmin;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    display: block;
+    text-align: center;
+}
+
+
+.offer-row1,.offer-row2{
+    padding-left: 0px;
+    padding-right: 5px;
+}
+.offer-row1 a>div, .offer-row2 a>div{
+    padding-right: 5px;
+}
+
+.offer-row1 a:last-of-type>div, .offer-row2 a:last-of-type>div {
+    padding-right: 0px;
+}
+
+.footer-w3layouts,.subscribe-grid{
+    padding-top: 10px;
+}
+
+.link-elements{
+    list-style: none;
+    font-size: 3vmin;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.wthree-icon.footer {
+    float: none;
+    text-align: center;
+}
+
+.link-elements a{
+    
+    text-decoration: none;
+    color: white;
+    transition: 0.3 ease-in-out;
+    -moz-transition: 0.3 ease-in-out;
+    -webkit-transition: 0.3 ease-in-out;
+    -o-transition: 0.3 ease-in-out;
+}
+
+.link-elements a:hover{
+    color: #dbb60e;
+}
+
+.link{
+    display: inline-block;
+    width: 25%;
+    margin-right: 30px;
+}
+
+.contact-footer h3{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.form-group label{
+    color: rgb(6, 211, 201);
+    font-size: 3vmin;
+}
+
+#suggestion,.email{
+    background-color: rgb(50,52,58);
+    border-radius: none;
+    border: none;
+}
+
+
+.copyright p{
+    color: rgb(126, 127, 129);
+    text-align: center;
+
+}
+
+
+@media screen and (max-height: 500px) {
+    .container-offers{
+        margin-left: 20px;
+    }
+
+    .link{
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    #clients{
+        min-height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container-offers{
+        margin-left: 20px;
+    }
+
+    .link{
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    #clients{
+        min-height: 300px;
+    }
+
+    
+}
+/* sm */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .container-offers{
+        margin-left: 40px;
+    }
+}
+/* md */
+@media screen and (min-width: 992px) and (max-width: 1199px)  {
+    .container-offers{
+        margin-left: 40px;
+    }
+}
+/* lg */
+@media screen and (min-width: 1200px){
+    
+}
+
+@media (max-width: 1130px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    /* .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    } */
+    .collapse.in{
+  		display:block !important;
+	}
+}

@@ -1,0 +1,75 @@
+.text-white{
+    background-color: #191919;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.text-white h1{
+    color: rgb(199, 70, 66);
+}
+
+.about .pcenter{
+    width: 80%;
+    margin:auto;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.container h4,.container p{
+    width: 80%;
+    margin: auto;
+}
+
+.about h4,.updesha h4,.future h4{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(231, 133, 41);
+    text-transform: capitalize;
+}
+
+.updesha,.future{
+    padding: 0;
+    padding-bottom: 56px;
+}
+
+.link-about{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: rgb(66, 191, 223);
+    border-width: 5px;
+    border-color: rgb(66, 191, 223);
+    margin-top: 10px;
+}
+
+.link-about:hover{
+    background-color: black;
+    color: white;
+}
+
+.border{
+    margin:auto;
+    margin: 40px auto;
+    /* border: 1px #191919 solid; */
+    box-shadow: 0px 0px 10px #191919;
+}
+
+@media screen and (max-width: 566px)
+{
+    .text-white h1{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 410px)
+{
+    .text-white h1{
+        font-size: 36px;
+    }
+}
+

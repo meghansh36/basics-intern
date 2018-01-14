@@ -48,7 +48,7 @@
 }
 
 
-.offer-row1,.offer-row2{
+/* .offer-row1,.offer-row2{
     padding-left: 0px;
     padding-right: 5px;
 }
@@ -62,6 +62,10 @@
 
 .footer-w3layouts,.subscribe-grid{
     padding-top: 10px;
+} */
+
+.offer-row1{
+    margin-bottom: 10px;
 }
 
 .link-elements{
@@ -274,4 +278,4 @@
         color: white;
       }
     }
-}
+

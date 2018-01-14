@@ -1,13 +1,13 @@
 $(document).ready(function(){
     var mainwidth = $(".offer-row1").width();
     mainwidth = (mainwidth-20)/3;
-    $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask,.title').width(mainwidth);
+    $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask, .title').width(mainwidth);
     $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask').height(mainwidth+30);
 
     $(window).resize(function(){
         var mainwidth = $(".offer-row1").width();
         mainwidth = (mainwidth-20)/3;
-        $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask,.title').width(mainwidth);
+        $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask, .title').width(mainwidth);
         $('.blogs img, .magazine img, .video img, .ebook img, .event img, .mask').height(mainwidth+30);
         if(window.innerWidth <= 767)
     {

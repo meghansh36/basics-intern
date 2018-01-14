@@ -709,6 +709,7 @@ h5.w3l-subtitle {
     transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
 .social-button .fa {
+	color:#3B5998;
 	font-size: 18px;
 	vertical-align: middle;
 	-webkit-transform: scale(0.8);

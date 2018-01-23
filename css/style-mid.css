@@ -2,6 +2,27 @@
     margin-left: 40px;
 }
 
+.cd-radial-slider-navigation li{
+    visibility: hidden;
+}
+
+.navbar-left > h4{
+    margin-right: 100px;
+}
+
+.flex{
+    display: flex;
+   
+}
+
+.figure{
+    background-color: #2A2B2F;
+}
+
+.flex img{
+    object-fit: contain;
+}
+
 .blogs,.magazine,.video , .ebook ,.event {
    
     transition: 0.5s ease-in-out;
@@ -9,6 +30,11 @@
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
 }
+
+.top_header{
+    position: fixed;
+}
+
 .mask{
     width: inherit;
     height: inherit;
@@ -126,6 +152,8 @@
 }
 
 
+
+
 @media screen and (max-height: 500px) {
     .container-offers{
         margin-left: 20px;
@@ -156,6 +184,16 @@
 
     #clients{
         min-height: 300px;
+    }
+
+    
+}
+@media screen and (max-width: 430px) {
+
+    .link{
+        display: inline-block;
+        width: 30%;
+        margin-right: 0;
     }
 
     

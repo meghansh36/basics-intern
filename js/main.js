@@ -21,6 +21,8 @@ jQuery(document).ready(function($){
 		this.bindEvents();
 	}
 
+	//$('.cd-radial-slider').attr('data-radius1',0)
+
 	radialSlider.prototype.bindEvents = function() {
 		var self = this;
 
@@ -36,6 +38,15 @@ jQuery(document).ready(function($){
 				self.updateSlides(direction);
 			}
 		});
+
+		//if( !self.animating ) {
+			//self.animating =  true;
+		    var direction = 'next';
+			//update radialSlider index properties
+			self.updateIndexes(direction);
+			//show new slide
+			self.updateSlides(direction);
+		//}
 
 		setInterval(function(){
 			if( !self.animating ) {
@@ -73,7 +84,7 @@ jQuery(document).ready(function($){
 		var radius1 = this.slider.data('radius1'),
 			radius2 = this.slider.data('radius2'),
 			centerx = ( direction == 'next' ) ? this.slider.data('centerx2') : this.slider.data('centerx1');
-
+			radius1 = 0;
 		this.slides.eq(this.visibleIndex).addClass('is-animating').removeClass('next-slide prev-slide');
 
 		if( direction == 'next' ) {

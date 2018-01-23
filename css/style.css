@@ -1954,7 +1954,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 		min-height: 23em; 
 	}
 	[class^='imghvr-'] .agile-figcaption h4 {
-		font-size: 1.3em; 
+		font-size: 2vmin; 
 	}
 	.w3gallery-grids {
 		padding: .1em 0.3em;
@@ -2113,7 +2113,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 		height: 30%; 
 	}
 	[class^='imghvr-'] .agile-figcaption, [class*=' imghvr-'] .agile-figcaption {
-		padding: 5.5em 3em;
+		/* padding: 5.5em 3em; */
 	}
 	.contact-right.agileits-w3layouts {
 		float: none;
@@ -2161,7 +2161,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 		padding: 1em 2em;
 	}
 	[class^='imghvr-'] .agile-figcaption, [class*=' imghvr-'] .agile-figcaption {
-		padding: 4em 3em;
+		/* padding: 4em 3em; */
 	}
 	.address-right iframe {
 		min-height: 250px;
@@ -2185,7 +2185,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 		padding: 1em 1em;
 	}
 	[class^='imghvr-'] .agile-figcaption, [class*=' imghvr-'] .agile-figcaption {
-		padding: 3.5em 3em;
+		/* padding: 3.5em 3em; */
 	}
 	.subscribe-grid {
 		padding: 2em 1em;
@@ -2208,7 +2208,7 @@ button.btn1:hover i.fa.fa-paper-plane-o{
 		padding: 3em 0;
 	}
 	[class^='imghvr-'] .agile-figcaption, [class*=' imghvr-'] .agile-figcaption {
-		padding: 2.5em 2em;
+		/* padding: 2.5em 2em; */
 	}
 	.agileits-title {
 		margin-bottom: 1em;

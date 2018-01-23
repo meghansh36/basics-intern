@@ -71,26 +71,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <h4><img src="images/basics_logo.png" alt="Programs Page" height="40" width="40"><a href="index.html"><font color="white" size="4%">Basics Eduventures</font></a>
+                                                <h4><a href="index.html"><img src="images/new_logo.png" alt="Homepage"  width="100"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
           <nav class="link-effect-2" id="link-effect-2">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html"><font size="5"><i class="fa fa-home" aria-hidden="true"></i></font></a></li>
-              <li><a href="about.html" class="scroll"><span data-hover="About">About</span></a></li>
-              <li><a href="#" class="scroll"><span data-hover="Magazine">Magazine</span></a></li>
-              <li><a href="#" class="scroll"><span data-hover="Blogs">Blogs</span></a></li>
+                                                                    <li><a href="about.html" class="scroll"><span data-hover="About">About</span></a></li>
+              <li><a href="magazine.html" class="scroll"><span data-hover="Magazine">Magazine</span></a></li>
+              <li><a href="https://blog.basicseduventures.com/" class="scroll"><span data-hover="Blogs">Blogs</span></a></li>
               <li><a href="ebook.html" class="scroll"><span data-hover="Ebooks">Ebooks</span></a></li>
               <li><a href="video.html" class="scroll"><span data-hover="Videos">Videos</span></a></li>
               <li><a href="contact.html" class="scroll"><span data-hover="Contact">Contact</span></a></li>
-              <li class="dropdown">
+                                                                    <li class="dropdown">
                 <a href="#" class="dropdown-toggle scroll" data-toggle="dropdown"><font size="4"><i class="fa fa-user" aria-hidden="true"></i></font> <b class="caret"></b></a>
                 <ul class="dropdown-menu agile_short_dropdown">
-                  <li><a href="#" class="scroll">Log IN</a></li>
-                  <li><a href="#" class="scroll">Sign UP</a></li>
+                  <li><a href="#" class="scroll" data-toggle="modal" data-target="#login">Log IN</a></li>
+                  <li><a href="#" class="scroll" data-toggle="modal" data-target="#myModal">Sign UP</a></li>
                 </ul>
               </li>
+
             </ul>
           </nav>
         </div>
@@ -124,7 +125,7 @@
                         <h3 class="event-subtitle">Lorem ipsum dolor sit.</h3>
 
                         <span class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tenetur.
-                        </span>
+                        </span>    
                         <p><span class="event-head">Date: </span> <span class="event-value">6th October,2017</span></p>
                         <p><span class="event-head">Venue: </span> <span class="event-value">Lorem, ipsum.</span></p>
                         <p><span class="event-head">Time: </span> <span class="event-value">21:00 - 21:30</span></p>
@@ -132,7 +133,7 @@
                         <button class="btn btn-primary" style="margin-top: 20px;">REGISTER</button>
 
                     </div>
-                    <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">
+                    <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">    
                 </div>
                 <div>
                     <div class="event-info">
@@ -140,7 +141,7 @@
                         <h3 class="event-subtitle">Lorem ipsum dolor sit.</h3>
 
                         <span class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laborum tempora dolor? Modi quibusdam, explicabo quas enim hic quos corporis.
-                        </span>
+                        </span>    
                         <p><span class="event-head">Date: </span> <span class="event-value">4th October,2017</span></p>
                         <p><span class="event-head">Venue: </span> <span class="event-value">TBA</span></p>
                         <p><span class="event-head">Time: </span> <span class="event-value">TBA</span></p>
@@ -148,29 +149,110 @@
                         <button class="btn btn-primary" style="margin-top: 20px;">REGISTER</button>
 
                     </div>
-                    <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">
+                    <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">    
                 </div>
                 <div>
                         <div class="event-info">
                             <h1 class="event-title">Program 3</h1>
                             <h3 class="event-subtitle">Lorem ipsum dolor sit.</h3>
-
+    
                             <span class="event-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit laborum tempora dolor? Modi quibusdam, explicabo quas enim hic quos corporis.
-                            </span>
+                            </span>    
                             <p><span class="event-head">Date: </span> <span class="event-value">4th October,2017</span></p>
                             <p><span class="event-head">Venue: </span> <span class="event-value">TBA</span></p>
                             <p><span class="event-head">Time: </span> <span class="event-value">TBA</span></p>
                             <p> <span class="event-head">Registration fee: </span> <span class="event-value">Free For All</span></p>
                             <button class="btn btn-primary" style="margin-top: 20px;">REGISTER</button>
-
+    
                         </div>
-                        <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">
+                        <img src="http://via.placeholder.com/350x150" alt="" class="event-image img-fluid">    
                     </div>
       <!-- <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
       <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a> -->
     </div>
   </div>
+        	<!-- Modal1 -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+                            <!-- Modal content--><form action="register.php" method="post">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3><i class="fa fa-user" aria-hidden="true"></i> Sign UP</h3><br>
+                                                
+                                                
 
+                                                 <div class="form-row">
+
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="text" class="form-control" id="FName" name="FName" placeholder="First Name" required>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="text" class="form-control" id="LName" name="LName" placeholder="Last Name" required>
+                                                    </div>
+                                                     
+                                                  </div>
+                                                <div class="form-group col-md-12">
+
+                                                          <input type="text" class="form-control" id="UName" name="UName" placeholder="Choose Username" required>
+                                                      </div>
+                                                <div class="form-group col-md-12">
+
+                                                          <input type="Email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                                 </div>
+                                                <div class="form-group col-md-12">
+
+                                                          <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Create Password" required>
+                                                 </div>
+                                                 <div class="form-group col-md-12">
+
+                                                          <input type="password" class="form-control" id="cpwd" name="pwd" placeholder="Confirm Password" required>
+                                                 </div>
+                                  
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Continue</button>
+                                     
+                                    </div>
+                                </div></form>
+				<!-- //Modal content-->
+			</div>
+		</div>
+        		<div class="modal fade" id="login" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+                            <!-- Modal content-->  <form method="post" action="auth.php">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3><i class="fa fa-user" aria-hidden="true"></i> Log IN</h3><br>
+                                                
+                                              
+
+                                                 <div class="form-row">
+
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="text" class="form-control" id="un" name="un" placeholder="Username/Email" required>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+
+                                                        <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Password" required>
+                                                    </div>
+                                                     
+                                                  </div>
+                                  
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Log IN</button>
+                                     
+                                    </div>
+                                </div></form>
+				<!-- //Modal content-->
+			</div>
+		</div>
+<!-- //Modal1 -->
     <!-- Footer -->
     <div class="footer-w3layouts">
 			<div class="subscribe-grid">
@@ -265,7 +347,7 @@
     <script>
       var grid = new Muuri('.grid');
     </script>
-    <script src="js/jquery.slides.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>   
     <script type="text/javascript">
       $(document).ready(function() {
         /*
@@ -279,7 +361,7 @@
 
         $().UItoTop({ easingType: 'easeOutQuart' });
 
-
+        
       $('#slides').slidesjs({
         width: 1110,
         height: 500,

@@ -151,6 +151,14 @@
 
 }
 
+.item:first-of-type{
+    margin-top: 50px;
+}
+
+#clients{
+    padding-top: 30px;
+}
+
 
 
 

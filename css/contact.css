@@ -40,6 +40,10 @@
     padding-top: 40%;
 } 
 
+.lead{
+    display: inline;
+}
+
 @media screen and (max-height: 530px){
     .address{
         top: 50%;
